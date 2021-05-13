@@ -1,0 +1,17 @@
+{
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "serve": "vite preview"
+  },
+  "devDependencies": {
+    "typescript": "^4.2.4",
+    "vite": "^2.3.2",
+    "vite-plugin-html": "^2.0.7",
+    "vite-plugin-import": "^0.3.0",
+    "vite-plugin-singlefile": "^0.5.1"
+  },
+  "dependencies": {
+    "lucia": "^0.5.1"
+  }
+}

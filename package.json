@@ -2,16 +2,22 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "serve": "vite preview"
-  },
-  "devDependencies": {
-    "typescript": "^4.2.4",
-    "vite": "^2.3.2",
-    "vite-plugin-html": "^2.0.7",
-    "vite-plugin-import": "^0.3.0",
-    "vite-plugin-singlefile": "^0.5.1"
+    "serve": "vite preview",
+    "lint": "eslint src/**",
+    "lint:fix": "eslint src/** --fix",
+    "cleanup": "prettier --write src --parser typescript"
   },
   "dependencies": {
-    "lucia": "^0.5.1"
+    "@primer/css": "^17.0.0",
+    "lucia": "^0.5.1",
+    "water.css": "^2.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.26.0",
+    "prettier": "^2.3.0",
+    "sass": "^1.32.13",
+    "typescript": "^4.2.4",
+    "vite": "^2.3.2",
+    "vite-plugin-html": "^2.0.7"
   }
 }

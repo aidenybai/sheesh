@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "autoprefixer": "^10.2.5",
-    "lucia": "^0.5.3",
+    "lucia": "next",
     "tailwindcss": "^2.1.2"
   },
   "devDependencies": {

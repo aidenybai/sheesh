@@ -953,10 +953,10 @@ lru-cache@^6.0.0:
   dependencies:
     yallist "^4.0.0"
 
-lucia@^0.5.1:
-  version "0.5.1"
-  resolved "https://registry.yarnpkg.com/lucia/-/lucia-0.5.1.tgz#59efdbb705a448e3a3a93522e50d2ecef5898031"
-  integrity sha512-OxbZoAmgcguoPsCQQVKN6YcYCyK45qnMjwdFge/CFrcqETWcxMtjU7oE7pDOocJgxTgLmmq9lIIH41Yxd6uWmg==
+lucia@^0.5.3:
+  version "0.5.3"
+  resolved "https://registry.yarnpkg.com/lucia/-/lucia-0.5.3.tgz#f0b5c4754d9b2d2de0760dcfb34a0564cfb72678"
+  integrity sha512-qetJbQJW2m1IowXHcEGF+sFmZNAu81bk5vP5uOqm+vxOrV58M+RlyfFtwhzruJBRjJTd2aynXGa9VkTsmGQvIA==
 
 merge2@^1.3.0:
   version "1.4.1"

@@ -7,5 +7,5 @@ RESET_COLOR="\u001b[39m"
 
 printf "${YELLOW_COLOR}⚠ Checking for errors...${RESET_COLOR}"
 yarn cleanup
-yarn lint
+yarn lint:fix
 printf "${GREEN_COLOR}✓ No errors found. Committing your changes!\n"

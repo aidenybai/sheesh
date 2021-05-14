@@ -4,6 +4,8 @@ import compress from 'vite-plugin-compress';
 import { minifyHtml, injectHtml } from 'vite-plugin-html';
 import { VitePWA } from 'vite-plugin-pwa';
 
+const injectProps = {};
+
 const config = {
   plugins: [
     legacy({
@@ -12,7 +14,7 @@ const config = {
     minifyHtml(),
     compress(),
     VitePWA(),
-    injectHtml({}),
+    injectHtml(injectProps),
     {
       ...typescript2(),
       apply: 'build',

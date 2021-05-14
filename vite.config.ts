@@ -1,4 +1,3 @@
-import legacy from '@vitejs/plugin-legacy';
 import typescript2 from 'rollup-plugin-typescript2';
 import compress from 'vite-plugin-compress';
 import { minifyHtml, injectHtml } from 'vite-plugin-html';
@@ -8,9 +7,6 @@ const injectProps = {};
 
 const config = {
   plugins: [
-    legacy({
-      targets: ['defaults', 'not IE 11'],
-    }),
     compress({
       brotli: false
     }),

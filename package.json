@@ -9,8 +9,7 @@
     "prepare": "husky install"
   },
   "dependencies": {
-    "lucia": "next",
-    "tailwindcss": "^2.1.2"
+    "lucia": "next"
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^4.23.0",
@@ -20,15 +19,14 @@
     "eslint": "^7.26.0",
     "eslint-config-prettier": "^8.3.0",
     "husky": "^6.0.0",
+    "postcss": "^8.2.15",
     "prettier": "^2.3.0",
     "rollup-plugin-typescript2": "^0.30.0",
+    "tailwindcss": "^2.1.2",
     "typescript": "^4.2.4",
     "vite": "^2.3.2",
     "vite-plugin-compress": "^2.1.0",
     "vite-plugin-html": "^2.0.7",
     "vite-plugin-pwa": "^0.7.3"
-  },
-  "resolutions": {
-    "postcss": "8.2.12"
   }
 }

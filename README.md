@@ -1,4 +1,4 @@
-# Starter
+# Sheesh
 
 Hi there, seems like you stumbled upon this Github repository! This is a starter for [Aiden Bai](https://aidenybai.com).
 

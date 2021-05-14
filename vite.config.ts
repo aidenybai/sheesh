@@ -11,8 +11,10 @@ const config = {
     legacy({
       targets: ['defaults', 'not IE 11'],
     }),
+    compress({
+      brotli: false
+    }),
     minifyHtml(),
-    compress(),
     VitePWA(),
     injectHtml(injectProps),
     {

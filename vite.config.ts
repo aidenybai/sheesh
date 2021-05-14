@@ -1,9 +1,9 @@
+import { resolve } from 'path';
 import typescript2 from 'rollup-plugin-typescript2';
 import compress from 'vite-plugin-compress';
-import { minifyHtml, injectHtml } from 'vite-plugin-html';
+import handlebars from 'vite-plugin-handlebars';
+import { minifyHtml } from 'vite-plugin-html';
 import { VitePWA } from 'vite-plugin-pwa';
-
-const injectProps = {};
 
 const config = {
   plugins: [
@@ -12,7 +12,9 @@ const config = {
     }),
     minifyHtml(),
     VitePWA(),
-    injectHtml(injectProps),
+    handlebars({
+      partialDirectory: resolve(__dirname, 'partials'),
+    }),
     {
       ...typescript2(),
       apply: 'build',

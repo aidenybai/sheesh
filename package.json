@@ -5,7 +5,8 @@
     "serve": "vite preview",
     "lint": "eslint src/**",
     "lint:fix": "eslint src/** --fix",
-    "cleanup": "prettier --write src --parser typescript"
+    "cleanup": "prettier --write src --parser typescript",
+    "prepare": "husky install"
   },
   "dependencies": {
     "lucia": "next",
@@ -18,6 +19,7 @@
     "autoprefixer": "^10.2.5",
     "eslint": "^7.26.0",
     "eslint-config-prettier": "^8.3.0",
+    "husky": "^6.0.0",
     "prettier": "^2.3.0",
     "rollup-plugin-typescript2": "^0.30.0",
     "typescript": "^4.2.4",

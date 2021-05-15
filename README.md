@@ -1,16 +1,14 @@
-# Sheesh
+# 🤩 Sheesh
 
-Hi there, seems like you stumbled upon this Github repository! This is a starter for [Aiden Bai](https://aidenybai.com).
+### Vite + Lucia + Tailwind starter that'll make you go SHEESH
 
-## Rationale
+Project starters are weird—Generally they're slow and bulky, or so mimimalist that it's unscalable. Sheesh aims to fix this - by using [Vite](https://vitejs.dev/) we get fast development iteration, intentionally minimalist process, aka extreme predictability and robustness. It also sports modern libraries like [Lucia](https://lucia.js.org) and [Tailwind](https://tailwindcss.com). This allows for a very consistent design process during development.
 
-The build process with [Vite](https://vitejs.dev/) intentionally minimalist, allowing for extreme predictability and robustness.
-
-It also uses [Lucia](https://lucia.js.org/) for logic and [Tailwind](https://tailwindcss.com/) for styling. These technologies allow a very consistent design process during development. For the best experience, deploy to [Netlify](https://netlify.com/).
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/aidenybai/sheesh)
 
 ## Usage
 
-Use this project as a template on GitHub or fork. Clone into a local repository and run `yarn`.
+Use this project as a template on GitHub or fork it. Clone the new repo into a local repository and run `yarn` to install dependencies and prepare Git hooks.
 
 - `yarn dev` - Start development server and build assets for development.
 - `yarn build` - Build assets for production.

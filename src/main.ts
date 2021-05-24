@@ -1,6 +1,6 @@
 import './style.css';
 import { component } from 'lucia';
 
-const App = component(() => ({ number: 0 }));
+const App = component({ number: 0 });
 
-App.init('#app');
+App.mount('#app');

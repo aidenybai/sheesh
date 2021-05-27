@@ -1,4 +1,5 @@
 const defaultTheme = require('tailwindcss/defaultTheme');
+const daisyui = require('daisyui');
 
 module.exports = {
   purge: {
@@ -6,6 +7,7 @@ module.exports = {
     safeList: [],
     content: ['./index.html', './src/**/*.ts'],
   },
+  plugins: [daisyui],
   theme: {
     extend: {
       fontWeight: ['hover', 'focus'],

@@ -789,6 +789,11 @@ currently-unhandled@^0.4.1:
   dependencies:
     array-find-index "^1.0.1"
 
+daisyui@^1.1.2:
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/daisyui/-/daisyui-1.1.2.tgz#aecaa6fc1bbb66bb7d5fa49362112d469451f0af"
+  integrity sha512-8jmW7pztjwtvt0NRDJGSjOUKrHe5HcC0vsu3l1pjo+MRhqXwlN7+8RbRzGzFTOCQKb08YFMRBaHOQXXJp4m0xg==
+
 debug@^4.0.1, debug@^4.1.1:
   version "4.3.1"
   resolved "https://registry.yarnpkg.com/debug/-/debug-4.3.1.tgz#f0d229c505e0c6d8c49ac553d1b13dc183f6b2ee"
